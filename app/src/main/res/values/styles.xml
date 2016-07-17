@@ -1,0 +1,12 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+
+
+
+</resources>
