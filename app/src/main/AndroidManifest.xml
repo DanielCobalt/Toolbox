@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".SoundsActivity">
         </activity>
+        <activity android:name=".SoundChooserActivity">
+        </activity>
     </application>
 
 </manifest>

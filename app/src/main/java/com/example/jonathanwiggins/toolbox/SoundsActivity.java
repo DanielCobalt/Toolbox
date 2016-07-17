@@ -1,7 +1,9 @@
 package com.example.jonathanwiggins.toolbox;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class SoundsActivity extends AppCompatActivity {
 
@@ -11,5 +13,9 @@ public class SoundsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sounds);
     }
 
+
+    public void openSoundsActivity(View view){
+        startActivity(new Intent(SoundsActivity.this,SoundChooserActivity.class));
+    }
 
 }
